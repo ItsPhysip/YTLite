@@ -40,14 +40,14 @@ on:
         default: false
 
       ipa_url:
-        description: "URL to the decrypted IPA file"
+        description: "URL to the decrypted IPA file (latest confirmed compatible: YouTube 20.42.3)"
         default: ""
         required: true
         type: string
 
       tweak_version:
-        description: "The version of the tweak to use. Enter the version manually from dayanch96/YTLite/releases or leave default"
-        default: "5.2.1"
+        description: "Tweak version (last free version is 5.2b4)"
+        default: "5.2b4"
         required: true
         type: string
 
